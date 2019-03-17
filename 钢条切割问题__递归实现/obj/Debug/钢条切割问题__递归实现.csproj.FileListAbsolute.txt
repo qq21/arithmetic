@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe.config
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.pdb
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.exe
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.pdb
+H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.csprojAssemblyReference.cache

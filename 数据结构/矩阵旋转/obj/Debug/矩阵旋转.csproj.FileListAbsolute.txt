@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe.config
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\bin\Debug\矩阵旋转.pdb
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.exe
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.pdb
+H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.csprojAssemblyReference.cache

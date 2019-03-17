@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe.config
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.pdb
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.csprojAssemblyReference.cache
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.exe
+H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.pdb

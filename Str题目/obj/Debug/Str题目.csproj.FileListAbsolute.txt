@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\Str题目\bin\Debug\Str题目.exe.config
+H:\C#learning\数据结构与算法\Str题目\bin\Debug\Str题目.exe
+H:\C#learning\数据结构与算法\Str题目\bin\Debug\Str题目.pdb
+H:\C#learning\数据结构与算法\Str题目\obj\Debug\Str题目.csprojAssemblyReference.cache
+H:\C#learning\数据结构与算法\Str题目\obj\Debug\Str题目.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\Str题目\obj\Debug\Str题目.exe
+H:\C#learning\数据结构与算法\Str题目\obj\Debug\Str题目.pdb

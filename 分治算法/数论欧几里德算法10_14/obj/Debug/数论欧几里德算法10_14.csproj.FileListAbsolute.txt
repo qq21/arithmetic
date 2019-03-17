@@ -1,0 +1,7 @@
+H:\C#learning\分治算法\数论欧几里德算法10_14\bin\Debug\数论欧几里德算法10_14.exe.config
+H:\C#learning\分治算法\数论欧几里德算法10_14\bin\Debug\数论欧几里德算法10_14.exe
+H:\C#learning\分治算法\数论欧几里德算法10_14\bin\Debug\数论欧几里德算法10_14.pdb
+H:\C#learning\分治算法\数论欧几里德算法10_14\obj\Debug\数论欧几里德算法10_14.csprojAssemblyReference.cache
+H:\C#learning\分治算法\数论欧几里德算法10_14\obj\Debug\数论欧几里德算法10_14.csproj.CoreCompileInputs.cache
+H:\C#learning\分治算法\数论欧几里德算法10_14\obj\Debug\数论欧几里德算法10_14.exe
+H:\C#learning\分治算法\数论欧几里德算法10_14\obj\Debug\数论欧几里德算法10_14.pdb

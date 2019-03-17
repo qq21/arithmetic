@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "二叉树-顺序结构存储", "二叉树-顺序结构存储\二叉树-顺序结构存储.csproj", "{39A13424-6A50-4618-8D1E-A062ABF9055A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A13424-6A50-4618-8D1E-A062ABF9055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A13424-6A50-4618-8D1E-A062ABF9055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A13424-6A50-4618-8D1E-A062ABF9055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A13424-6A50-4618-8D1E-A062ABF9055A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BE5926D-0580-477F-85A5-61BE88B31D30}
+	EndGlobalSection
+EndGlobal

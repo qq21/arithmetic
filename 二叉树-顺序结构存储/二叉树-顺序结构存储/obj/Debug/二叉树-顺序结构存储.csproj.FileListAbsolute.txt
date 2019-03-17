@@ -1,0 +1,7 @@
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\bin\Debug\二叉树-顺序结构存储.exe.config
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\bin\Debug\二叉树-顺序结构存储.exe
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\bin\Debug\二叉树-顺序结构存储.pdb
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\obj\Debug\二叉树-顺序结构存储.csprojAssemblyReference.cache
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\obj\Debug\二叉树-顺序结构存储.csproj.CoreCompileInputs.cache
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\obj\Debug\二叉树-顺序结构存储.exe
+H:\C#learning\二叉树-顺序结构存储\二叉树-顺序结构存储\obj\Debug\二叉树-顺序结构存储.pdb

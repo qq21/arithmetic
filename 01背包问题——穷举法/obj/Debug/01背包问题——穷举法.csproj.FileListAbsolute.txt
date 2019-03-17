@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\01背包问题——穷举法\bin\Debug\01背包问题——穷举法.exe.config
+H:\C#learning\数据结构与算法\01背包问题——穷举法\bin\Debug\01背包问题——穷举法.exe
+H:\C#learning\数据结构与算法\01背包问题——穷举法\bin\Debug\01背包问题——穷举法.pdb
+H:\C#learning\数据结构与算法\01背包问题——穷举法\obj\Debug\01背包问题——穷举法.csprojAssemblyReference.cache
+H:\C#learning\数据结构与算法\01背包问题——穷举法\obj\Debug\01背包问题——穷举法.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\01背包问题——穷举法\obj\Debug\01背包问题——穷举法.exe
+H:\C#learning\数据结构与算法\01背包问题——穷举法\obj\Debug\01背包问题——穷举法.pdb

@@ -1,0 +1,7 @@
+H:\C#learning\数据结构与算法\报数问题\bin\Debug\报数问题.exe.config
+H:\C#learning\数据结构与算法\报数问题\bin\Debug\报数问题.exe
+H:\C#learning\数据结构与算法\报数问题\bin\Debug\报数问题.pdb
+H:\C#learning\数据结构与算法\报数问题\obj\Debug\报数问题.csprojAssemblyReference.cache
+H:\C#learning\数据结构与算法\报数问题\obj\Debug\报数问题.csproj.CoreCompileInputs.cache
+H:\C#learning\数据结构与算法\报数问题\obj\Debug\报数问题.exe
+H:\C#learning\数据结构与算法\报数问题\obj\Debug\报数问题.pdb

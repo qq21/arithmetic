@@ -1,0 +1,6 @@
+F:\C#Learning\罗马数字转整数\罗马数字转整数\bin\Debug\罗马数字转整数.exe
+F:\C#Learning\罗马数字转整数\罗马数字转整数\bin\Debug\罗马数字转整数.pdb
+F:\C#Learning\罗马数字转整数\罗马数字转整数\obj\Debug\罗马数字转整数.csprojAssemblyReference.cache
+F:\C#Learning\罗马数字转整数\罗马数字转整数\obj\Debug\罗马数字转整数.csproj.CoreCompileInputs.cache
+F:\C#Learning\罗马数字转整数\罗马数字转整数\obj\Debug\罗马数字转整数.exe
+F:\C#Learning\罗马数字转整数\罗马数字转整数\obj\Debug\罗马数字转整数.pdb

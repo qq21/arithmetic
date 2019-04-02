@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\数学问题罗马数字"
+    "\\数学问题",
+    "\\数学问题\\罗马数字转整数\\bin",
+    "\\数学问题\\罗马数字转整数\\bin\\Debug"
   ],
-  "SelectedNode": "\\数学问题罗马数字\\罗马数字转整数.sln",
+  "SelectedNode": "\\数学问题\\3的幂",
   "PreviewInSolutionExplorer": false
 }

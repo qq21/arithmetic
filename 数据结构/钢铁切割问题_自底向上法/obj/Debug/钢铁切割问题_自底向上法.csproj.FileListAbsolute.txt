@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.exe
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.pdb
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe.config
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.pdb
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\bin\Debug\钢铁切割问题_自底向上法.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.exe
+H:\算法练习\arithmetic\数据结构\钢铁切割问题_自底向上法\obj\Debug\钢铁切割问题_自底向上法.pdb

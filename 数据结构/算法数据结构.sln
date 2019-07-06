@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "字符操作", "字符操�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "报数问题", "..\报数问题\报数问题.csproj", "{2CFEBC95-2D78-4417-B00D-4991CB4A800F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeReview", "..\LeetCodeReview\LeetCodeReview.csproj", "{242DF7EB-C891-4DB7-9953-1DC504D179C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{2CFEBC95-2D78-4417-B00D-4991CB4A800F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFEBC95-2D78-4417-B00D-4991CB4A800F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFEBC95-2D78-4417-B00D-4991CB4A800F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{242DF7EB-C891-4DB7-9953-1DC504D179C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{242DF7EB-C891-4DB7-9953-1DC504D179C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{242DF7EB-C891-4DB7-9953-1DC504D179C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{242DF7EB-C891-4DB7-9953-1DC504D179C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

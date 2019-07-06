@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\数据结构\字符操作\obj\Debug\字符�
 H:\C#learning\数据结构与算法\数据结构\字符操作\obj\Debug\字符操作.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\数据结构\字符操作\obj\Debug\字符操作.exe
 H:\C#learning\数据结构与算法\数据结构\字符操作\obj\Debug\字符操作.pdb
+H:\算法练习\arithmetic\数据结构\字符操作\bin\Debug\字符操作.exe.config
+H:\算法练习\arithmetic\数据结构\字符操作\bin\Debug\字符操作.exe
+H:\算法练习\arithmetic\数据结构\字符操作\bin\Debug\字符操作.pdb
+H:\算法练习\arithmetic\数据结构\字符操作\bin\Debug\字符操作.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\数据结构\字符操作\bin\Debug\字符操作.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\数据结构\字符操作\obj\Debug\字符操作.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\字符操作\obj\Debug\字符操作.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\数据结构\字符操作\obj\Debug\字符操作.exe
+H:\算法练习\arithmetic\数据结构\字符操作\obj\Debug\字符操作.pdb

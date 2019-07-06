@@ -5,3 +5,17 @@ H:\C#learning\数据结构与算法\快速排序10_25\obj\Debug\快速排序10_2
 H:\C#learning\数据结构与算法\快速排序10_25\obj\Debug\快速排序10_25.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\快速排序10_25\obj\Debug\快速排序10_25.exe
 H:\C#learning\数据结构与算法\快速排序10_25\obj\Debug\快速排序10_25.pdb
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.exe.config
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.exe
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.pdb
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.exe
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.pdb
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.exe.manifest
+H:\算法练习\arithmetic\快速排序10_25\bin\Debug\快速排序10_25.application
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.TrustInfo.xml
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.exe.manifest
+H:\算法练习\arithmetic\快速排序10_25\obj\Debug\快速排序10_25.application

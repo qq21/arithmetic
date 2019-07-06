@@ -4,3 +4,12 @@ H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题_
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe
 H:\C#learning\数据结构与算法\堆排序___顺序存储\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.pdb
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\bin\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe.config
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\bin\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\bin\Debug\钢铁切割问题__带备忘的自顶向下递归方法.pdb
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\bin\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\bin\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.exe
+H:\算法练习\arithmetic\数据结构\钢铁切割问题__带备忘的自顶向下递归方法\obj\Debug\钢铁切割问题__带备忘的自顶向下递归方法.pdb

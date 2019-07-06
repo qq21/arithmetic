@@ -264,5 +264,26 @@ namespace 最大子数组问题_分治法
 
         }
 
+        ///最大连续子数组 问题
+        public int MaxSerialArray(int[] nums)
+        {
+            int temp = 0;
+            int max = nums[0];
+            for (int i = 0; i <nums.Length; i++)
+            {
+                if(temp<=0)
+                {
+                    temp = nums[i];//重新 计数，  因为  要的结果是 连续的子数组
+                }
+                else
+                {
+                    temp+= nums[i];
+                }
+
+                max = Math.Max(max, temp);
+            }
+
+            return max;
+        }
     }
 }

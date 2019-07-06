@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\�
 H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.exe
 H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.pdb
 H:\C#learning\数据结构与算法\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe.config
+H:\算法练习\arithmetic\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe
+H:\算法练习\arithmetic\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.pdb
+H:\算法练习\arithmetic\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\钢条切割问题__递归实现\bin\Debug\钢条切割问题__递归实现.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.exe
+H:\算法练习\arithmetic\钢条切割问题__递归实现\obj\Debug\钢条切割问题__递归实现.pdb

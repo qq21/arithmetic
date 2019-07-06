@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵�
 H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.exe
 H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.pdb
 H:\C#learning\数据结构与算法\数据结构\矩阵旋转\obj\Debug\矩阵旋转.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe.config
+H:\算法练习\arithmetic\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe
+H:\算法练习\arithmetic\数据结构\矩阵旋转\bin\Debug\矩阵旋转.pdb
+H:\算法练习\arithmetic\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\数据结构\矩阵旋转\bin\Debug\矩阵旋转.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\数据结构\矩阵旋转\obj\Debug\矩阵旋转.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\矩阵旋转\obj\Debug\矩阵旋转.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\数据结构\矩阵旋转\obj\Debug\矩阵旋转.exe
+H:\算法练习\arithmetic\数据结构\矩阵旋转\obj\Debug\矩阵旋转.pdb

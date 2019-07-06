@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\堆排序___顺序存储\obj\Debug\堆排序
 H:\C#learning\数据结构与算法\堆排序___顺序存储\obj\Debug\堆排序___顺序存储.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\堆排序___顺序存储\obj\Debug\堆排序___顺序存储.exe
 H:\C#learning\数据结构与算法\堆排序___顺序存储\obj\Debug\堆排序___顺序存储.pdb
+H:\算法练习\arithmetic\数据结构\bin\Debug\堆排序___顺序存储.exe.config
+H:\算法练习\arithmetic\数据结构\bin\Debug\堆排序___顺序存储.exe
+H:\算法练习\arithmetic\数据结构\bin\Debug\堆排序___顺序存储.pdb
+H:\算法练习\arithmetic\数据结构\bin\Debug\堆排序___顺序存储.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\数据结构\bin\Debug\堆排序___顺序存储.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\数据结构\obj\Debug\堆排序___顺序存储.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\数据结构\obj\Debug\堆排序___顺序存储.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\数据结构\obj\Debug\堆排序___顺序存储.exe
+H:\算法练习\arithmetic\数据结构\obj\Debug\堆排序___顺序存储.pdb

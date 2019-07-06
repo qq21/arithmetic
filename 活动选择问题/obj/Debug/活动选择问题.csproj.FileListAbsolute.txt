@@ -5,3 +5,12 @@ H:\C#learning\数据结构与算法\活动选择问题\obj\Debug\活动选择问
 H:\C#learning\数据结构与算法\活动选择问题\obj\Debug\活动选择问题.csproj.CoreCompileInputs.cache
 H:\C#learning\数据结构与算法\活动选择问题\obj\Debug\活动选择问题.exe
 H:\C#learning\数据结构与算法\活动选择问题\obj\Debug\活动选择问题.pdb
+H:\算法练习\arithmetic\活动选择问题\bin\Debug\活动选择问题.exe.config
+H:\算法练习\arithmetic\活动选择问题\bin\Debug\活动选择问题.exe
+H:\算法练习\arithmetic\活动选择问题\bin\Debug\活动选择问题.pdb
+H:\算法练习\arithmetic\活动选择问题\bin\Debug\活动选择问题.exe.CodeAnalysisLog.xml
+H:\算法练习\arithmetic\活动选择问题\bin\Debug\活动选择问题.exe.lastcodeanalysissucceeded
+H:\算法练习\arithmetic\活动选择问题\obj\Debug\活动选择问题.csprojAssemblyReference.cache
+H:\算法练习\arithmetic\活动选择问题\obj\Debug\活动选择问题.csproj.CoreCompileInputs.cache
+H:\算法练习\arithmetic\活动选择问题\obj\Debug\活动选择问题.exe
+H:\算法练习\arithmetic\活动选择问题\obj\Debug\活动选择问题.pdb

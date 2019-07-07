@@ -9,14 +9,14 @@ namespace 快速排序10_25
 {
     class Program
     {
-      
+        
         static void Main(string[] args)
         {
-          
+            
             //int[] vs = { 10, 20, 30, 55, 44, 88, 11, 1, 8, 789, 54, 10, 4,10 };
 
             //QuickSort(vs,0,vs.Length-1);
-
+            
             //foreach (int item in  vs)
             //{
             //    Console.Write(item + " ");

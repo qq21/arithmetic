@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Messaging;
 using System.Security.Cryptography;
 using System.Text;
@@ -23,22 +24,26 @@ namespace LeetCodeReview
               
            }
            //Console.WriteLine((int)'a');
-           Console.WriteLine(LengthOfLongestSubstring("asjrgapa")); 
+           Console.WriteLine(LengthOfLongestSubstring("asjrgapa"));
+
+           Console.WriteLine(JudgeSqueareSum(5)); 
         }
 
+        //字符 最长 子字符串
         public static int LengthOfLongestSubstring(string s)
         {
 
 
             int n = s.Length;
             int res = 0;
-            int[] code = new int[128];
+            int[] code = new int[128]; 
+            //编码 128位
             string temp = "";
             for (int i = 0,j=0; i <n; i++)
             {
-                j = Math.Max(code[s[i]], j);//
-                res = Math.Max(res, i - j + 1);
-                code[s[i]] = i + 1;
+                j = Math.Max(code[s[i]], j);//每次  j都 存最大，
+                res = Math.Max(res, i - j + 1); //存最大值
+                code[s[i]] = i + 1; //第几位就 加+1
             }
              
             return res;
@@ -46,7 +51,7 @@ namespace LeetCodeReview
 
 
         #region 001l两数之和
-        //两数之和
+        //两数之和  字典 
         public static int[] TwoSum(int []nums,int target)
         {
             Dictionary<int,int> numsDic=new Dictionary<int,int>();
@@ -70,7 +75,7 @@ namespace LeetCodeReview
             return null;
         }
    
-        //暴力破解
+        //暴力破解  
         public static int[] TwoSum2(int []nums ,int target)
         {
             for (int i = 0; i <nums.Length; i++)
@@ -92,6 +97,70 @@ namespace LeetCodeReview
             }
             return  new int[]{};
         }
+
+        #endregion
+
+        #region  双指针
+        //Input: numbers={2, 7, 11, 15}, target=9
+        //Output: index1=1, index2=2
+        //双指针  ----- 有序的数组 从小到大
+        //使用双指针 一个指向最小， 一个指向最大
+        public static int[] TwoSum3(int[] nums, int target)
+        {
+            int i = 0, j = nums.Length - 1;
+            while (i < j)
+            {
+                int sum = nums[i] + nums[j];
+                if (sum == target)//找到结果
+                {
+
+                    return new int[] { i, j };
+
+                }
+                else if (sum < target) //小了n i++
+                {
+                    i++;
+                }
+                else //大了  j--
+                {
+                    j--;
+
+                }
+
+            }
+
+            return null;
+        }
+
+
+        //两数平方和 
+        //描述：判断一个数是否是两个数的平方和
+        public static bool JudgeSqueareSum(int n)
+        {
+            int i = 0, j = (int) Math.Sqrt(n);
+            int sum = 0;
+            while (i<=j)
+            {
+                sum = i * i + j * j;
+
+                if (sum>n)
+                {
+                    j--;
+                }
+                else
+                {
+                    i++;
+                }
+
+                if (sum==n)
+                {
+                    return true;
+                }
+                 
+            }
+            return false;
+        }
+
         #endregion
 
         #region 002x_爬楼梯

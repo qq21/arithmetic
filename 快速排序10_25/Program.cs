@@ -139,7 +139,7 @@ namespace 快速排序10_25
                         }
                     }
                     //从 前 往后找一个 比x大的坑
-                    while (i < j)
+                    while (i<j)
                     {
                         if (data[i]>x)
                         {
@@ -156,8 +156,7 @@ namespace 快速排序10_25
                 data[i] = x;
                 //继续对  左边 和右边进行排序
                 QuickSort(data, left, i - 1);
-                QuickSort(data, i + 1, right);
-                
+                QuickSort(data, i + 1, right);                
             }
         }
        

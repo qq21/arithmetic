@@ -115,6 +115,11 @@ namespace Leetcode_双指针
             return res.ToString();
         }
 
+        /// <summary>
+        /// 删除一个字母  查看是否构成回文
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public static bool ValidPalinDrom(string s)
         {
             for (int i = 0,j=s.Length-1; i <j; i++,j--)
@@ -128,7 +133,7 @@ namespace Leetcode_双指针
             return true; //不需要 删除的情况
         }
 
-            /// <summary>
+        /// <summary>
             /// 
             /// </summary>
             /// <param name="s">字符</param>
@@ -146,6 +151,43 @@ namespace Leetcode_双指针
             }
             return true;
         }
+
+        /// <summary>
+        ///  合并两个有序 数组，思路就是 存3个最大 索引 指针，分别 是数组1的值 长度m， 数组2的值长度n， 以及它们合并后的最大长度m+n-1 
+        /// </summary>
+        /// <param name="nums1"></param>
+        /// <param name="m"></param>
+        /// <param name="num2"></param>
+        /// <param name="n"></param>
+        public void Merge(int[] nums1,int m,int[] num2, int n)
+        {
+            int index1 = m - 1; //nums的下标 从最大开始
+            int index2 = n - 1; //nums2的下表， 从最大开始
+            int indexMerge = m + n - 1; //合并数组的最大下表， 从最大开始
+            //合并到 数组nums1 上
+            while (index1>0||index2>0)
+            {
+                if ( index1<0) //剩下 index2
+                {
+                    nums1[indexMerge--] = num2[index2--];
+                }
+                else if (index2<0)  // 剩下index1
+                {
+                    nums1[indexMerge--] = nums1[index1--];
+                }
+                else if (nums1[index1]>num2[index2]) //第一最大的大于第二的
+                {
+                    nums1[indexMerge--] = nums1[index1--]; //存放最大
+                }
+                else
+                {
+                    nums1[indexMerge--] = num2[index2--];
+                }
+                 
+            }
+             
+        }
+
 
         #endregion
     }

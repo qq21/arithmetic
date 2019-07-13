@@ -189,6 +189,73 @@ namespace Leetcode_双指针
         }
 
 
+        public class  ListNode<T>
+        {
+            public T Value;
+            public ListNode<T> Next;
+
+            /// <inheritdoc />
+            public ListNode(T value)
+            {
+                Value = value;
+            }
+
+            /// <inheritdoc />
+            public ListNode(T value, ListNode<T> next)
+            {
+                Value = value;
+                Next = next;
+            }
+
+            /// <inheritdoc />
+            public ListNode()
+            {
+            }
+        }
+
+        /// <summary>
+        ///  环 链表， 思路  快慢指针，慢指针指向下一个， 快指针指向下一个的下一个，如果（引用）相等，说明是环链表 
+        /// 最终肯定会相遇，即链表 存在环，
+        /// </summary>
+        public bool HasCycle(ListNode<int> head)
+        {
+            if (head==null)
+            {
+                return false;
+            }
+            ListNode<int> node1 = head;
+            ListNode<int> node2 = head.Next;
+
+
+            while (node1!=null&&node2!=null &&node2.Next!=null) //还需要判断node2的next是否为null
+            {
+                if (node1 ==node2 )
+                {
+                    return true;
+                }
+                else
+                {
+                    node1 = node1.Next;
+                    node2 = node2.Next.Next;
+                }
+            }
+
+            return false;
+        }
+
+        /// <summary>
+        /// 最长子序列，
+        /// 题目描述：删除 s 中的一些字符，使得它构成字符串列表 d 中的一个字符串，找出能构成的最长字符串。如果有多个相同长度的结果，返回字典序的最小字符串
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="d"></param>
+        /// <returns></returns>
+        public string FindLongestWord(string s,List<string> d)
+        {
+              
+            return "";
+        }
+
         #endregion
     }
 }

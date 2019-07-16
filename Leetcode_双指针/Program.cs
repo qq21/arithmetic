@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,7 +20,6 @@ namespace Leetcode_双指针
             Console.WriteLine("JudgeSqueareSum:"+JudgeSqueareSum(5));
            
         }
-
 
         #region  双指针
         //Input: numbers={2, 7, 11, 15}, target=9
@@ -187,8 +187,7 @@ namespace Leetcode_双指针
             }
              
         }
-
-
+ 
         public class  ListNode<T>
         {
             public T Value;
@@ -252,10 +251,47 @@ namespace Leetcode_双指针
         /// <returns></returns>
         public string FindLongestWord(string s,List<string> d)
         {
-              
-            return "";
+            
+            string longestWorld = "";
+
+            
+            foreach (var target in d)
+            {
+                int l1 = longestWorld.Length;
+                int l2 = s.Length;
+
+                if ( l1>l2||l1==l2&& longestWorld.CompareTo(target)<0)
+                {
+                    continue;
+                     //longestWorld 比s大，跳过，l1==l2 但是长度小，跳过
+                }
+                if (isSubstr(s,target))
+                {
+                    longestWorld = target;
+                }
+                //  target.CompareTo()
+            }
+
+
+            return longestWorld;
         }
 
+        //判断target是否是s的子字符串
+        private bool isSubstr(string s,string target)
+        {
+            int i = 0, j = 0;  //字符串串的原则，就是target[j] 和s[i]  匹配的数量，为j  且，j<=target.length，当j==target。length时，说明 是子字符串
+            while (i < s.Length&&j<target.Length) 
+            {
+                if (s[i]==target[j])
+                {
+                    j++;
+                }
+
+                i++;
+            }
+            return j == target.Length;
+        }
+         
         #endregion
     }
 }

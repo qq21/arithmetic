@@ -81,7 +81,7 @@ namespace Leetcode_双指针
             }
             return false;
         }
-        //反转 元音 字母
+           //反转 元音 字母
         public static string ReverseVowels(string s)
         {
             // 元音字母 列表，
@@ -151,7 +151,7 @@ namespace Leetcode_双指针
             }
             return true;
         }
-
+            
         /// <summary>
         ///  合并两个有序 数组，思路就是 存3个最大 索引 指针，分别 是数组1的值 长度m， 数组2的值长度n， 以及它们合并后的最大长度m+n-1 
         /// </summary>
@@ -211,7 +211,7 @@ namespace Leetcode_双指针
             {
             }
         }
-
+    
         /// <summary>
         ///  环 链表， 思路  快慢指针，慢指针指向下一个， 快指针指向下一个的下一个，如果（引用）相等，说明是环链表 
         /// 最终肯定会相遇，即链表 存在环，
@@ -293,5 +293,6 @@ namespace Leetcode_双指针
         }
          
         #endregion
+
     }
 }

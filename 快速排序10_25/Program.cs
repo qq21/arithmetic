@@ -13,33 +13,33 @@ namespace 快速排序10_25
         static void Main(string[] args)
         {
             
-            //int[] vs = { 10, 20, 30, 55, 44, 88, 11, 1, 8, 789, 54, 10, 4,10 };
+            int[] vs = { 10, 20, 30, 55, 44, 88, 11, 1, 8, 789, 54, 10, 4,10 };
 
-            //QuickSort(vs,0,vs.Length-1);
-            
-            //foreach (int item in  vs)
-            //{
-            //    Console.Write(item + " ");
-            //}
-/*
+            QuickSort(vs,0,vs.Length-1);
 
-          
-            int[] a, b=new int[100];
-            a = new int[3] { 1, 2, 3 };
-            int i = 61;
+            foreach (int item in vs)
+            {
+                Console.Write(item + " ");
+            }
+            /*
 
 
+                        int[] a, b=new int[100];
+                        a = new int[3] { 1, 2, 3 };
+                        int i = 61;
 
-            b = new int[4] { 4, 5, 6, 7 };
-            int[] c = b;
 
-            //垃圾回收
-            GCHandle gCHandle1 = GCHandle.Alloc(b, GCHandleType.Pinned);
-            IntPtr intPtr1 = gCHandle1.AddrOfPinnedObject();           
-            Console.WriteLine("地址:" + intPtr1.ToString());
-            Console.WriteLine("地址" + GCHandle.Alloc(b[0], GCHandleType.Pinned).AddrOfPinnedObject().ToString());
-            Console.WriteLine("地址" + GCHandle.Alloc(b[1], GCHandleType.Pinned).AddrOfPinnedObject().ToString());
-*/
+
+                        b = new int[4] { 4, 5, 6, 7 };
+                        int[] c = b;
+
+                        //垃圾回收
+                        GCHandle gCHandle1 = GCHandle.Alloc(b, GCHandleType.Pinned);
+                        IntPtr intPtr1 = gCHandle1.AddrOfPinnedObject();           
+                        Console.WriteLine("地址:" + intPtr1.ToString());
+                        Console.WriteLine("地址" + GCHandle.Alloc(b[0], GCHandleType.Pinned).AddrOfPinnedObject().ToString());
+                        Console.WriteLine("地址" + GCHandle.Alloc(b[1], GCHandleType.Pinned).AddrOfPinnedObject().ToString());
+            */
 
             //b = a;
             //Console.WriteLine();
@@ -97,14 +97,13 @@ namespace 快速排序10_25
                         }
                          
                     }
-
-                    //此时  i==j  中间值
-                    nums[i] = temp;
-                    QuickSort(l,i-1,nums);
-                    QuickSort(i,r,nums);
                 }
-                 //找到了 中间值  此时 left==right
-                   
+                //此时  i==j  中间值
+                nums[i] = temp;
+                QuickSort(l, i - 1, nums);
+                QuickSort(i, r, nums);
+                //找到了 中间值  此时 left==right
+
             }
         }
 

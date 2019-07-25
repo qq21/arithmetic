@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -25,19 +26,25 @@ namespace 排序
 
             //sort.CocktailSort(nums); //鸡尾酒排序 最优版 冒泡排序的升级版
 
-            QuickSort<int> sort=new QuickSort<int>();
+            //QuickSort<int> sort=new QuickSort<int>();
 
+            int[] chars = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1};
 
+            //Shell<int>  charSort=new Shell<int>();
+            //charSort.sort(chars);
 
-            sort.Sort(nums, 0, nums.Length - 1); 
-            foreach (var num in nums)
+            MergeSort<int> sort=new MergeSort<int>();
+            sort.sort(chars);
+            //sort.Sort(nums, 0, nums.Length - 1); 
+
+            foreach (var cha in chars)
             {
-                Console.Write(num + " ");
+                Console.Write(cha+" "); 
             }
 
-           
 
-        }       
+
+        }
     }
 
     public abstract class Sort<T> where   T:IComparable<T>
@@ -173,7 +180,7 @@ namespace 排序
     /// 从数组中选择最小元素，将它与数组的第一个元素交换位置。再从数组剩下的元素中选择出最小的元素，将它与数组的第二个元素交换位置。不断进行这样的操作，直到将整个数组排序。
     /// 选择排序需要 ~N2/2 次比较和 ~N 次交换，它的运行时间与输入无关，这个特点使得它对一个已经排序的数组也需要这么多的比较和交换操作。
     /// </summary>
-    /// <typeparam name="T"></typeparam>     
+    /// <typeparam name="T"></typeparam>        
     public class SelectionSort<T> : Sort<T> where T : IComparable<T>
     {
         /// <inheritdoc />
@@ -241,20 +248,27 @@ namespace 排序
         {
             int n = nums.Length;
             int h = 1;
-            while (h>n/3)
+            while (h<n/3)
             {
                 h = h * 3 + 1;//1, 1*3+1 ,4*3+1  13*3+1......
             }
 
-            while (h>1)
+            while (h >= 1)
             {
                 for (int i = h; i < n; i++)
                 {
-                    for (int j = i; j >=h &&less(nums[j],nums[j-h]) ; j-=h) //i j-h,j-2h ....
+                    for (int j = i; j >= h && less(nums[j], nums[j - h]); j -= h) //i j-h,j-2h ....
                     {   //只从 h开始， 一开始 相隔为n/3+1 的 子数组都是 有序数组 
-                        Swap(j, j-h,nums);
+                        Swap(j, j - h, nums);
+                        
                     }
                 }
+
+                //foreach (var cha in nums)
+                //{
+                //    Console.Write(cha + " ");
+                //}
+                //Console.WriteLine(" ");
 
                 h /= 3;
             }
@@ -266,14 +280,84 @@ namespace 排序
     /// <typeparam name="T"></typeparam>
     public class MergeSort<T> : Sort<T> where T : IComparable<T>
     {
-        /// <inheritdoc />
+        private T[] aux;
+         /// <summary>
+        /// 原地归并 排序利用空间换性能
+        /// </summary>
+        /// <param name="nums"></param>
         public override void sort(T[] nums)
-        {
-             
+         {
+             aux = new T[nums.Length];
+            sort(nums,0,nums.Length-1);
+           
         }
+
+         /// <summary>
+         /// 自顶向下 排序法
+         /// </summary>
+         /// <param name="nums"></param>
+         /// <param name="l"></param>
+         /// <param name="h"></param>
+         void sort(T[] nums,int l,int h)
+         {
+             if (h<=l)
+             {
+                 return;;
+             }
+
+             int mid = (h-l)/2 + l;  //
+
+             sort(nums,l,mid); //左边
+             sort(nums,mid+1,h);//右边
+             merge(nums,l,mid,h);//合并
+
+         }
+        /// <summary>
+        /// 利用空间 换效率 ,先将方法中所有元素复制到aux[]中，然后再归并到a[]中，
+        /// 方法在归并时，第二个for循环，进行了4个条件判断
+        /// 左半边用尽(取右半边的元素)，
+        /// 右半边用尽(取左半边的元素),
+        /// 右半边元素小于左半边元素(取右半边元素) 大于左半边元素 (取左半边元素）
+        /// 
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <param name="l">low</param>
+        /// <param name="m">mid</param>
+        /// <param name="h">hight</param>
+        void merge(T[] nums ,int l,int m,int h)
+        {
+
+            //nums.CopyTo(aux, 0);
+            int i = l,j = m+ 1;
+            for (int k = i; k <=h; k++)
+            {
+                aux[k] = nums[k];
+            }
+
+            for (int k = l; k <=h; k++)
+            {
+                if (i>m)
+                {
+                    nums[k] = aux[j++];
+                }
+                else if (j>h)
+                {
+                    nums[k] = aux[i++];
+                }
+                else if (less(aux[j],aux[i]))
+                {
+                    nums[k] = aux[j++];
+                }
+                else
+                {
+                    nums[k] = aux[i++];
+                }               
+            }
+        }
+
     }
 
-
+ 
     /// <summary>
     /// 快速排序
     /// </summary>

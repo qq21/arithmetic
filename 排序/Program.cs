@@ -28,24 +28,75 @@ namespace 排序
 
             //QuickSort<int> sort=new QuickSort<int>();
 
-            int[] chars = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1};
+    
+            MergeSort<int> mergeSort=new MergeSort<int>();
+
+            mergeSort.merge(nums);
 
             //Shell<int>  charSort=new Shell<int>();
             //charSort.sort(chars);
 
-            MergeSort<int> sort=new MergeSort<int>();
-            sort.sort(chars);
             //sort.Sort(nums, 0, nums.Length - 1); 
 
-            foreach (var cha in chars)
+            foreach (var cha in  nums)
             {
-                Console.Write(cha+" "); 
+                Console.Write(cha + " ");
             }
 
 
 
         }
+
+
+        public void SortTest()
+        {
+            int[] testNums = new int[10000];
+            Random r = new Random(1000);
+            for (int i = 0; i < 10000; i++)
+            {
+                testNums[i] = r.Next(0, i);
+            }
+
+            for (int o = 0; o < 10; o++)
+            {
+                Sort<int> sort = new QuickSort<int>();
+                System.TimeSpan span = new TimeSpan(System.DateTime.Now.Ticks);
+                sort.sort(testNums);
+                TimeSpan s3 = new TimeSpan(System.DateTime.Now.Ticks);
+                TimeSpan s2 = span.Subtract(s3).Duration();
+                Console.WriteLine($"快速排序所需要的时间,100万数据:{s2.Milliseconds}毫秒");
+                for (int i = 0; i < 10000; i++)
+                {
+                    testNums[i] = r.Next(0, i);
+                }
+
+                sort = new MergeSort<int>();
+                span = new TimeSpan(System.DateTime.Now.Ticks);
+                sort.sort(testNums);
+                s3 = new TimeSpan(System.DateTime.Now.Ticks);
+                s2 = span.Subtract(s3).Duration();
+                Console.WriteLine($"归并排序所需要的时间,100万数据:{s2.Milliseconds}毫秒");
+
+                for (int i = 0; i < 10000; i++)
+                {
+                    testNums[i] = r.Next(0, i);
+                }
+                BubleSort<int> sort2 = new BubleSort<int>();
+                span = new TimeSpan(System.DateTime.Now.Ticks);
+                sort2.CocktailSort(testNums);
+                s3 = new TimeSpan(System.DateTime.Now.Ticks);
+                s2 = span.Subtract(s3).Duration();
+                Console.WriteLine($"冒泡排序所需要的时间,100万数据:{s2.Milliseconds}毫秒");
+                for (int i = 0; i < 10000; i++)
+                {
+                    testNums[i] = r.Next(0, i);
+                }
+            }
+
+        }
     }
+
+
 
     public abstract class Sort<T> where   T:IComparable<T>
     {
@@ -91,7 +142,7 @@ namespace 排序
                         isNeed = true;
                     }
                 }
-
+                
                 if (!isNeed)
                 {
                     break;
@@ -275,7 +326,11 @@ namespace 排序
         }
     }
     /// <summary>
-    /// 算法思想：将数组分成两部分 分别排序，然后归并起来
+    /// 算法思想：将数组分成两部分 分别排序，然后归并起来 ,
+    /// 可以处理规模为百万甚至更大的数组
+    /// 把数组分成 两半,再分,直到不可再分, 然后对最小的两半进行,排序,合并, 再对其他进行排序,合并,
+    /// 然后两个合并的数组 排序合并,....递归直到排序完成
+    /// 就类似 二叉树,分到最小的叶子,然后排序 合并,层层排序 合并 直到最后一层
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public class MergeSort<T> : Sort<T> where T : IComparable<T>
@@ -326,17 +381,15 @@ namespace 排序
         /// <param name="h">hight</param>
         void merge(T[] nums ,int l,int m,int h)
         {
-
-            //nums.CopyTo(aux, 0);
-            int i = l,j = m+ 1;
-            for (int k = i; k <=h; k++)
+            int i = l, j = m+1;
+            for (int k = l; k <=h; k++)
             {
                 aux[k] = nums[k];
             }
 
             for (int k = l; k <=h; k++)
             {
-                if (i>m)
+                if (i>j)
                 {
                     nums[k] = aux[j++];
                 }
@@ -347,17 +400,37 @@ namespace 排序
                 else if (less(aux[j],aux[i]))
                 {
                     nums[k] = aux[j++];
-                }
-                else
+                }else
                 {
                     nums[k] = aux[i++];
-                }               
+                }
+                 
             }
         }
 
+        /// <summary>
+        /// 自底向上 排序法  先归并 那些微小数组, 然后
+        /// </summary>
+        /// <param name="nums"></param>
+        public void merge(T[] nums)
+        { 
+            //自底向上的归并排序会多次遍历整个数组,根据 子数组大小进行两两归并.
+            //子数组的大小sz的初始值为1 ,每次加倍,
+            //最后一个子数组的大小只有再数组大小是sz的偶数倍的时候才会等于sz(否则比sz小)
+            int N = nums.Length;
+            aux=new T[N];
+            for (int sz = 1; sz <N ; sz+=sz)
+            {
+                for (int lo = 0; lo <N-sz; lo+=sz+sz)
+                {
+                    //最高是2*sz 因此mid 为lo+sz -1    最高不能超过N
+                    merge(nums,lo,lo+sz-1,Math.Min(lo+sz+sz-1, N - 1));
+                }
+            }
+        }
+        
     }
 
- 
     /// <summary>
     /// 快速排序
     /// </summary>
@@ -392,7 +465,7 @@ namespace 排序
                             break;
                         }
                             j--;
-                       Console.WriteLine(j);
+                       
                     }
 
                     while (i<j)
@@ -416,5 +489,5 @@ namespace 排序
         }
     }
     
-    
 }
+    

@@ -98,7 +98,7 @@ namespace 排序
 
 
 
-    public abstract class Sort<T> where   T:IComparable<T>
+    public abstract class Sort<T> where T:IComparable<T>
     {
         public abstract void sort(T[] nums);
 
@@ -315,16 +315,12 @@ namespace 排序
                     }
                 }
 
-                //foreach (var cha in nums)
-                //{
-                //    Console.Write(cha + " ");
-                //}
-                //Console.WriteLine(" ");
-
+                 
                 h /= 3;
             }
         }
     }
+    
     /// <summary>
     /// 算法思想：将数组分成两部分 分别排序，然后归并起来 ,
     /// 可以处理规模为百万甚至更大的数组
@@ -409,7 +405,7 @@ namespace 排序
         }
 
         /// <summary>
-        /// 自底向上 排序法  先归并 那些微小数组, 然后
+        /// 自底向上 排序法  先归并 那些微小数组, 然后成对归并得到的微型数组
         /// </summary>
         /// <param name="nums"></param>
         public void merge(T[] nums)
@@ -464,10 +460,8 @@ namespace 排序
                             nums[i] = nums[j];  
                             break;
                         }
-                            j--;
-                       
+                            j--;                      
                     }
-
                     while (i<j)
                     {
                         if (x.CompareTo(nums[i])<0)
@@ -475,11 +469,9 @@ namespace 排序
                             nums[j] = nums[i];
                             break;
                         }                  
-                            i++;
-                   
+                            i++;                  
                     }
-              }
-             
+              }             
             //此时 i===j
             nums[i] = x;
             
